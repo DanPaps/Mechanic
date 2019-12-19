@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hotels"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="All Hotels" />
+        <item
+            android:id="@+id/popular"
+            android:icon="@drawable/ic_stars_black_24dp"
+            android:title="Popular Hotels"
+            android:visible="false" />
+        <item
+            android:id="@+id/on_map"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Hotels On Map" />
+
+
+    </group>
+
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Profile" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="Logout" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help"
+                android:visible="false" />
+        </menu>
+    </item>
+
+</menu>

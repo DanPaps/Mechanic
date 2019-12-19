@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_blend_in"
+    tools:context="paps.bookman.ui.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="@dimen/splash_image_size"
+        android:layout_height="@dimen/splash_image_size"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:fontFamily="@font/nunito_sans"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/text_secondary_dark"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@id/splash_image" />
+
+</android.support.constraint.ConstraintLayout>
